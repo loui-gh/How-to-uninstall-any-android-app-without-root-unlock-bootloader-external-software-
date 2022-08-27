@@ -26,3 +26,4 @@ https://forum.xda-developers.com/t/making-a-simple-adb-shell-script.4312377/
 https://www.androidsage.com/2022/04/11/remove-bloatware-uninstall-system-apps-from-any-android/
 https://adbshell.com/commands/adb-uninstall
 https://stackoverflow.com/questions/92802/what-is-the-linux-equivalent-to-dos-pause
+https://dev.to/real_sahilgarg/how-to-uninstall-and-reinstall-play-store-without-root-3lff
