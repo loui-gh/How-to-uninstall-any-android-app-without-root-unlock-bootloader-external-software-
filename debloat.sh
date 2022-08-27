@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /usr/lib/android-sdk/platform-tools
 adb devices
 read -n1 -rsp "Is device listed? If not or \"unknown\", kill this script and check that USB debugging is enabled on your phone. Refer to Readme and resources for more info. Otherwise hit Enter to continue script."
 
@@ -9,7 +10,7 @@ adb shell "pm uninstall  --user 0 com.samsung.android.bixby.service"
 adb shell "pm uninstall  --user 0 com.samsung.android.bixby.agent"
 adb shell "pm uninstall  --user 0 com.samsung.android.bixbyvision.framework"
 adb shell "pm uninstall  --user 0 com.samsung.android.bixby.wakeup"
-adb shell "pm uninstall  --user com.samsung.android.app.routines"
+
 
 #facebook
 adb shell "pm uninstall  --user 0 com.facebook.services"
@@ -34,33 +35,7 @@ adb shell "pm uninstall  --user 0 com.google.android.youtube"
 adb shell "pm uninstall  --user 0 com.google.android.apps.youtube.music"
 
 #Google Play
-adb shell "pm uninstall  --user 0  com.android.vending"
-
-#Other google crap
-adb shell "pm uninstall  --user 0 com.google.android.apps.docs"
-adb shell "pm uninstall  --user 0 com.google.android.apps.photos"
-adb shell "pm uninstall  --user 0 com.google.android.videos"
-adb shell "pm uninstall  --user 0 com.android.chrome"
-adb shell "pm uninstall  --user 0 com.google.android.apps.turbo"
-adb shell "pm uninstall  --user 0 com.google.android.as"
-adb shell "pm uninstall  --user 0 com.google.android.partnersetup"
-adb shell "pm uninstall  --user 0  uninstall --user 0 com.google.ar.core"
-adb shell "pm uninstall  --user 0  com.google.android.gms"
-adb shell "pm uninstall  --user 0  com.google.android.gsf"
-adb shell "pm uninstall  --user 0  com.google.android.tts"
-adb shell "pm uninstall  --user 0  com.google.android.gms.location.history"
-adb shell "pm uninstall  --user 0  com.google.android.feedback"
-adb shell "pm uninstall  --user 0  com.android.hotwordenrollment.okgoogle"
-adb shell "pm uninstall  --user 0  com.android.hotwordenrollment.xgoogle"
-adb shell "pm uninstall  --user 0  com.google.android.youtube"
-adb shell "pm uninstall  --user 0  com.google.android.apps.tachyon"
-adb shell "pm uninstall  --user 0  com.google.audio.hearing.visualization.accessibility.scribe"
-adb shell "pm uninstall  --user 0  com.google.android.projection.gearhead"
-adb shell "pm uninstall  --user 0  com.google.android.apps.restore"
-adb shell "pm uninstall  --user 0  com.google.android.configupdater"
-adb shell "pm uninstall  --user 0  com.google.android.syncadapters.contacts"
-adb shell "pm uninstall  --user 0  com.google.android.syncadapters.calendar"
-adb shell "pm uninstall  --user 0  com.google.android.onetimeinitializer"
+#adb shell "pm uninstall  --user 0  com.android.vending"
 
 #AR
 adb shell "pm uninstall  --user 0  com.samsung.android.visionarapps"
@@ -114,3 +89,11 @@ adb shell "pm uninstall  --user 0 com.samsung.android.scloud"
 adb shell "pm uninstall  --user 0 com.samsung.android.app.soundpicker"
 adb shell "pm uninstall  --user 0 com.samsung.android.app.updatecenter"
 adb shell "pm uninstall  --user 0 com.samsung.android.app.sharelive"
+
+#Other google crap
+adb shell "pm uninstall  --user 0 com.google.android.apps.photos"
+adb shell "pm uninstall  --user 0 com.google.android.videos
+adb shell "pm uninstall  --user 0 com.google.android.apps.tachyon"
+
+
+
