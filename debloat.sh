@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /usr/lib/android-sdk/platform-tools
+cd [INSERT FILE PATH TO platform-tools FOLDER HERE]
 adb devices
 read -n1 -rsp "Is device listed? If not or \"unknown\", kill this script and check that USB debugging is enabled on your phone. Refer to Readme and resources for more info. Otherwise hit Enter to continue script."
 
