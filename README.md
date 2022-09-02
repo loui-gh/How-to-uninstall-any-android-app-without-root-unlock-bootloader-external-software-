@@ -1,7 +1,8 @@
 PURPOSE: Remove as much junk apps as you can from your phone. You can help yourself at setup by not electing to install the reccommended list of apps, but for all the other pre-installed apps you can use this method.
+NOTE: If you have stuff on your phone, create an image of it first. I did this with a fresh, new phone, so I didn't need to make a backup.
 
 BEFORE RUNNING THIS SCRIPT:
-- install on your computer
+- install adb on your computer
 - Enable developer mode on phone by going to Settings > About Phone > Software Information and tapping on the build number seven times
 - Enable USB debugging by going to Settings > Developer Options
 
